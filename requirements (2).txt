@@ -1,6 +1,9 @@
 numpy
 scipy
 sounddevice
+time
+queue
+threading
 
 # deepfilter_stream is not on PyPI, set it up manually:
 # https://github.com/Rikorose/DeepFilterNet
