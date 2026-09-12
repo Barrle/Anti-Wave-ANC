@@ -19,7 +19,7 @@ All of this runs live, block by block, using well under 15ms of processing time 
 Install the regular dependencies first:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements (2).txt
 ```
 
 **Heads up: `deepfilter_stream` is NOT on PyPI.** You can't just `pip install` your way to a working DeepFilterNet3 setup. It's a wrapper around the DeepFilterNet3 ONNX model, and you'll need to set it up manually — head over to the [DeepFilterNet repo](https://github.com/Rikorose/DeepFilterNet) and follow their instructions to get the model and streaming wrapper working before you try running this.
